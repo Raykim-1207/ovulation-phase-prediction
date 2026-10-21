@@ -1,0 +1,27 @@
+# Individual-level data are never committed (IRB restriction; see doc/DATA.md).
+*.xlsx
+*.xls
+*.csv
+*.parquet
+*.edf
+*.dcm
+raw/
+label/
+ovul_data_*/
+third_party/
+
+# Stage outputs (result tables, night-level predictions, generated tables and figures).
+result_*/
+results/
+scripts/pred_*/
+scripts/tables/
+scripts/fig/
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+*.log
