@@ -1,0 +1,8 @@
+# Five models proposed in 2024-2025 (stage 6 of scripts/reproduce.sh; GPU recommended).
+-r requirements.txt
+tabm==0.0.3
+pytabkit==1.7.3
+mambapy==1.2.0
+pytorch-frame==0.3.0
+tsai==1.0.1
+lightning==2.1.4
